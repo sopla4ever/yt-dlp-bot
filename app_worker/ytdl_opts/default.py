@@ -14,7 +14,8 @@ FINAL_THUMBNAIL_FORMAT = 'jpg'
 
 DEFAULT_YTDL_OPTS = [
     '--output',
-    '%(title).200B.%(ext)s',
+"""    '%(title).200B.%(ext)s',
+    '%(upload_date>%Y-%m-%d)s %(channel)s - %(title)+.200B [%(id)s].%(ext)s',
     '--no-playlist',
     '--playlist-items',
     '1:1',
