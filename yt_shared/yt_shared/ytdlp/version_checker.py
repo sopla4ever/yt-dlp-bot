@@ -10,7 +10,7 @@ from yt_shared.schemas.ytdlp import CurrentVersion, LatestVersion, VersionContex
 class YtdlpVersionChecker:
     """yt-dlp version number checker."""
 
-    """LATEST_TAG_URL = 'https://github.com/yt-dlp/yt-dlp/releases/latest'
+    """LATEST_TAG_URL = 'https://github.com/yt-dlp/yt-dlp/releases/latest'"""
     LATEST_TAG_URL = 'https://github.com/yt-dlp/yt-dlp-nightly-builds/releases'
 
     def __init__(self) -> None:
